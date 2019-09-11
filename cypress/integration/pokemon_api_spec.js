@@ -15,4 +15,13 @@ describe('Pokemon API', () => {
         expect(value.name).to.eq('bulbasaur')
       )
   })
+
+  it('should return ivysaur', () => {
+    const pokemon = cy.request('POST', 'http://pokeapi.co/api/v2/pokemon/2/')
+
+    pokemon.its('body.forms')
+      .each(value =>
+        expect(value.name).to.eq('ivysaur')
+      )
+  })
 })
