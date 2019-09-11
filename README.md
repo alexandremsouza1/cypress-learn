@@ -1,2 +1,1 @@
-# cypress-learn
-Testando cypress
+# e2e-tests-js
