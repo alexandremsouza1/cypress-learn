@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/lflimeira/e2e-tests-js#readme",
   "devDependencies": {
-    "cypress": "^2.0.3"
+    "cypress": "^12.7.0"
   }
 }
